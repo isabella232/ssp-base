@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "48a390350404b047e69c355e72d51341",
+    "content-hash": "fc34cc31405ecbe18bc570ae19e92780",
     "packages": [
         {
             "name": "adldap2/adldap2",
@@ -2099,16 +2099,16 @@
         },
         {
             "name": "silinternational/simplesamlphp-module-profilereview",
-            "version": "1.0.1",
+            "version": "dev-develop",
             "source": {
                 "type": "git",
                 "url": "https://github.com/silinternational/simplesamlphp-module-profilereview.git",
-                "reference": "6d8fe13bdeef7abb8a09767c91519dc80d82694c"
+                "reference": "fee3a2df349c74a32ae994578b3e4808c29485e3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silinternational/simplesamlphp-module-profilereview/zipball/6d8fe13bdeef7abb8a09767c91519dc80d82694c",
-                "reference": "6d8fe13bdeef7abb8a09767c91519dc80d82694c",
+                "url": "https://api.github.com/repos/silinternational/simplesamlphp-module-profilereview/zipball/fee3a2df349c74a32ae994578b3e4808c29485e3",
+                "reference": "fee3a2df349c74a32ae994578b3e4808c29485e3",
                 "shasum": ""
             },
             "require": {
@@ -2144,7 +2144,7 @@
                 }
             ],
             "description": "A simpleSAMLphp module for prompting the user to review their profile (such as 2fa, email, etc.).",
-            "time": "2019-04-15T15:02:54+00:00"
+            "time": "2019-04-12T22:20:20+00:00"
         },
         {
             "name": "silinternational/simplesamlphp-module-silauth",
@@ -4385,7 +4385,8 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "roave/security-advisories": 20
+        "roave/security-advisories": 20,
+        "silinternational/simplesamlphp-module-profilereview": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
